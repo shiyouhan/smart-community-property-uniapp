@@ -1,0 +1,298 @@
+{
+  "pages": [
+	{
+		"path": "pages/login/login",
+		"style": {
+		  "navigationBarTitleText": "",
+		  "navigationBarTextStyle": "black",
+		  "enablePullDownRefresh": false,
+		  "navigationBarBackgroundColor": "transparent"
+		}
+	},
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "主页"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "消息",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/password-edit/password-edit",
+      "style": {
+        "navigationBarTitleText": "修改密码",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/community-activity/community-activity",
+      "style": {
+        "navigationBarTitleText": "小区活动",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "发布",
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "width": "78px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/activity-edit/activity-edit",
+      "style": {
+        "navigationBarTitleText": "活动编辑",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/activity-promulgate/activity-promulgate",
+      "style": {
+        "navigationBarTitleText": "活动发布",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/community-announcement/community-announcement",
+      "style": {
+        "navigationBarTitleText": "小区公告",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "发布",
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "width": "78px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/announcement-promulgate/announcement-promulgate",
+      "style": {
+        "navigationBarTitleText": "公告发布",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/announcement-edit/announcement-edit",
+      "style": {
+        "navigationBarTitleText": "公告编辑",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/fleamarket/fleamarket",
+      "style": {
+        "navigationBarTitleText": "跳蚤市场",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/goods-detail/goods-detail",
+      "style": {
+        "navigationBarTitleText": "商品详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/communication/communication",
+      "style": {
+        "navigationBarTitleText": "社区交流",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "color": "#FFFFFF",
+                "float": "right",
+                "fontSize": "20px",
+                "fontSrc": "/static/font/iconfont.ttf",
+                "text": "\ue627",
+                "width": "40px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/search/search",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/complaints/complaints",
+      "style": {
+        "navigationBarTitleText": "投诉处理",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/complaints-detail/complaints-detail",
+      "style": {
+        "navigationBarTitleText": "投诉详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/property-purchase/property-purchase",
+      "style": {
+        "navigationBarTitleText": "物业采购",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "采购记录",
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "width": "78px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/purchase-statistics/purchase-statistics",
+      "style": {
+        "navigationBarTitleText": "采购记录",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 200
+      }
+    },
+    {
+      "path": "pages/repair-process/repair-process",
+      "style": {
+        "navigationBarTitleText": "报修处理",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/repair-detail/repair-detail",
+      "style": {
+        "navigationBarTitleText": "报修详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/signin/signin",
+      "style": {
+        "navigationBarTitleText": "考勤签到",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "考勤统计",
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "width": "78px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/signin-statistic/signin-statistic",
+      "style": {
+        "navigationBarTitleText": "考勤统计",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/property-payment/property-payment",
+      "style": {
+        "navigationBarTitleText": "物业缴费",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/user-edit/user-edit",
+      "style": {
+        "navigationBarTitleText": "个人资料",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "保存",
+                "fontSize": "16px",
+                "fontWeight": "bold",
+                "width": "78px"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/feedback/feedback",
+      "style": {
+        "navigationBarTitleText": "意见反馈",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#f5820f",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "borderStyle": "white",
+    "selectedColor": "#5c8396",
+    "backgroundColor": "#FFFFFF",
+    "height": "54px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "6px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/index.png",
+        "selectedIconPath": "static/images/tabbar/index-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/images/tabbar/property.png",
+        "selectedIconPath": "static/images/tabbar/property-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my-active.png"
+      }
+    ]
+  }
+}

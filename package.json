@@ -1,0 +1,22 @@
+{
+  "name": "smart-community-property-uniapp-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeup.aliyun.com/5f895e4e1858a172104675cc/smart-community-property-uniapp-one.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "vue-async-computed": "^3.9.0"
+  }
+}
